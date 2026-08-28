@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "de.app.reminder",
       "sha256_cert_fingerprints": [
-        "B2:97:79:F0:15:A6:FF:D0:4B:C1:1E:B4:57:B6:2A:06:13:B7:CD:68:B6:85:19:98:A8:51:1B:4D:F8:48:D4:84"
+        "B2:97:79:F0:15:A6:FF:D0:4B:C1:1E:B4:57:B6:2A:06:13:B7:CD:68:B6:85:19:98:A8:51:1B:4D:F8:48:D4:84",
+        "E7:BE:6C:5E:76:58:6C:7A:88:BF:FB:C2:39:87:C8:A8:F6:C4:92:B2:1F:7C:F8:A8:D1:91:CB:9F:94:FA:23:B3"
       ]
     }
   },
@@ -19,7 +20,8 @@
       "namespace": "android_app",
       "package_name": "de.app.reminder.plus",
       "sha256_cert_fingerprints": [
-        "62:76:10:4F:A4:E4:E0:8B:AB:7D:0B:C8:75:A8:01:43:D0:78:9B:AC:6F:A3:E1:0C:C1:80:C3:5C:10:9F:44:20"
+        "62:76:10:4F:A4:E4:E0:8B:AB:7D:0B:C8:75:A8:01:43:D0:78:9B:AC:6F:A3:E1:0C:C1:80:C3:5C:10:9F:44:20",
+        "E7:BE:6C:5E:76:58:6C:7A:88:BF:FB:C2:39:87:C8:A8:F6:C4:92:B2:1F:7C:F8:A8:D1:91:CB:9F:94:FA:23:B3"
       ]
     }
   }
