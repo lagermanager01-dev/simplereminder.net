@@ -1,1 +1,26 @@
-
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.app.reminder",
+      "sha256_cert_fingerprints": [
+        "B2:97:79:F0:15:A6:FF:D0:4B:C1:1E:B4:57:B6:2A:06:13:B7:CD:68:B6:85:19:98:A8:51:1B:4D:F8:48:D4:84"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.app.reminder.plus",
+      "sha256_cert_fingerprints": [
+        "62:76:10:4F:A4:E4:E0:8B:AB:7D:0B:C8:75:A8:01:43:D0:78:9B:AC:6F:A3:E1:0C:C1:80:C3:5C:10:9F:44:20"
+      ]
+    }
+  }
+]
