@@ -3,17 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geteilte Erinnerung – Simple Reminder</title>
+
+    <title>Geteilte Erinnerung – SimpleReminder</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            background: #f4f5f7;
+            color: #202124;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 440px;
+            padding: 32px 24px;
+
+            background: #ffffff;
+            border-radius: 24px;
+
+            box-shadow:
+                0 8px 30px rgba(0, 0, 0, 0.10);
+
+            text-align: center;
+        }
+
+        .app-name {
+            margin: 0 0 28px;
+
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        h1 {
+            margin: 0 0 16px;
+
+            font-size: 23px;
+        }
+
+        .description {
+            margin: 0 0 32px;
+
+            font-size: 16px;
+            line-height: 1.5;
+
+            color: #5f6368;
+        }
+
+        .app-option {
+            margin-top: 16px;
+            padding: 20px;
+
+            border: 1px solid #dadce0;
+            border-radius: 16px;
+        }
+
+        .app-option h2 {
+            margin: 0 0 6px;
+
+            font-size: 19px;
+        }
+
+        .app-option p {
+            margin: 0 0 16px;
+
+            font-size: 14px;
+            color: #5f6368;
+        }
+
+        .play-button {
+            display: block;
+
+            width: 100%;
+            padding: 13px 18px;
+
+            border-radius: 12px;
+
+            background: #1a73e8;
+            color: #ffffff;
+
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .footer {
+            margin-top: 28px;
+
+            font-size: 12px;
+            color: #80868b;
+        }
+
+        @media (prefers-color-scheme: dark) {
+
+            body {
+                background: #121212;
+                color: #f1f3f4;
+            }
+
+            .card {
+                background: #1e1e1e;
+            }
+
+            .description,
+            .app-option p {
+                color: #bdc1c6;
+            }
+
+            .app-option {
+                border-color: #3c4043;
+            }
+
+            .footer {
+                color: #9aa0a6;
+            }
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Simple Reminder</h1>
 
-    <p>Du hast eine geteilte Erinnerung erhalten.</p>
+<div class="card">
 
-    <p>
-        Installiere Simple Reminder auf deinem Android-Gerät,
-        um diese Erinnerung zu öffnen.
+    <div class="app-name">
+        SimpleReminder
+    </div>
+
+    <h1>
+        Geteilte Erinnerung
+    </h1>
+
+    <p class="description">
+        Du hast eine Erinnerung über SimpleReminder erhalten.
+        Wähle eine App aus, um die Erinnerung zu öffnen.
     </p>
+
+
+    <div class="app-option">
+
+        <h2>
+            SimpleReminder
+        </h2>
+
+        <p>
+            Die kostenlose Version
+        </p>
+
+        <a class="play-button"
+           href="https://play.google.com/store/apps/details?id=de.app.reminder">
+
+            Im Google Play Store öffnen
+
+        </a>
+
+    </div>
+
+
+    <div class="app-option">
+
+        <h2>
+            SimpleReminder Plus
+        </h2>
+
+        <p>
+            Die erweiterte Version
+        </p>
+
+        <a class="play-button"
+           href="https://play.google.com/store/apps/details?id=de.app.reminder.plus">
+
+            Im Google Play Store öffnen
+
+        </a>
+
+    </div>
+
+
+    <div class="footer">
+        simplereminder.net
+    </div>
+
+</div>
+
 </body>
 </html>
