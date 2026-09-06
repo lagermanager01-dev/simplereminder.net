@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SimpleReminder</title>
+    <title>Geteilte Erinnerung – SimpleReminder</title>
 
     <style>
         * {
@@ -140,9 +140,15 @@
         SimpleReminder
     </div>
 
-    <h1 id="shared-title"></h1>
+    <h1 id="shared-title">
+        Geteilte Erinnerung
+    </h1>
 
-    <p class="description" id="shared-description"></p>
+    <p class="description" id="shared-description">
+        Du hast eine Erinnerung über SimpleReminder erhalten.
+        Wähle eine App aus, um die Erinnerung zu öffnen.
+    </p>
+
 
     <div class="app-option">
 
@@ -150,14 +156,20 @@
             SimpleReminder
         </h2>
 
-        <p id="free-description"></p>
+        <p id="free-description">
+            Kostenlos & ohne Werbung
+        </p>
 
         <a class="play-button"
            id="free-play-button"
            href="https://play.google.com/store/apps/details?id=de.app.reminder">
+
+            Im Google Play Store öffnen
+
         </a>
 
     </div>
+
 
     <div class="app-option">
 
@@ -165,20 +177,27 @@
             SimpleReminder Plus
         </h2>
 
-        <p id="plus-description"></p>
+        <p id="plus-description">
+            Die erweiterte Version
+        </p>
 
         <a class="play-button"
            id="plus-play-button"
            href="https://play.google.com/store/apps/details?id=de.app.reminder.plus">
+
+            Im Google Play Store öffnen
+
         </a>
 
     </div>
+
 
     <div class="footer">
         simplereminder.net
     </div>
 
 </div>
+
 
 <script src="translations.js"></script>
 
@@ -202,9 +221,6 @@
 
     document.getElementById("plus-play-button").textContent =
         t.openPlayStore;
-
-    document.documentElement.lang =
-        navigator.language.toLowerCase().split("-")[0];
 </script>
 
 </body>
