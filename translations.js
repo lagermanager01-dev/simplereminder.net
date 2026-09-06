@@ -69,8 +69,14 @@ const translations = {
             "Je hebt via SimpleReminder een herinnering ontvangen. Kies een app om de herinnering te openen."
     }
 };
-
 function getTranslations() {
+    const params = new URLSearchParams(window.location.search);
+    const testLanguage = params.get("lang");
+
+    if (testLanguage && translations[testLanguage]) {
+        return translations[testLanguage];
+    }
+
     const browserLanguage = navigator.language.toLowerCase().split("-")[0];
 
     return translations[browserLanguage] || translations.en;
