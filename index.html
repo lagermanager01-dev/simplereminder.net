@@ -130,11 +130,12 @@
             SimpleReminder
         </h2>
 
-        <p>
+        <p id="free-description">
             Kostenlos & ohne Werbung
         </p>
 
         <a class="play-button"
+           id="free-play-button"
            href="https://play.google.com/store/apps/details?id=de.app.reminder">
 
             Im Google Play Store öffnen
@@ -149,11 +150,12 @@
             SimpleReminder Plus
         </h2>
 
-        <p>
+        <p id="plus-description">
             Die erweiterte Version
         </p>
 
         <a class="play-button"
+           id="plus-play-button"
            href="https://play.google.com/store/apps/details?id=de.app.reminder.plus">
 
             Im Google Play Store öffnen
@@ -167,6 +169,28 @@
     </div>
 
 </div>
+
+
+<script src="translations.js"></script>
+
+<script>
+    const t = getTranslations();
+
+    document.getElementById("free-description").textContent =
+        t.freeDescription;
+
+    document.getElementById("plus-description").textContent =
+        t.plusDescription;
+
+    document.getElementById("free-play-button").textContent =
+        t.openPlayStore;
+
+    document.getElementById("plus-play-button").textContent =
+        t.openPlayStore;
+</script>
+
+</body>
+</html>
 
 </body>
 </html>
